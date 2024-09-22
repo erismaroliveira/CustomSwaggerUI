@@ -1,0 +1,43 @@
+﻿/* Alterar a cor de fundo */
+body {
+    background-color: #f4f7f9;
+}
+
+/* Esconde o seletor "Select a definition" da navbar */
+.swagger-ui .topbar .download-url-wrapper {
+    display: none;
+}
+
+/* Ocultar o logo original do Swagger */
+.swagger-ui .topbar .link img {
+    display: none;
+}
+
+/* Adicionar um novo logo na barra superior */
+.swagger-ui .topbar {
+    background-color: #1a73e8;
+    background-image: url('/swagger-ui/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 150px;
+    padding-left: 160px;
+    padding: 77px 0;
+}
+
+/* Customizar o cabeçalho */
+/*.swagger-ui .topbar {
+    background-color: #1b1b1b;
+    padding: 77px 0;
+}*/
+
+/* Customizar a cor dos botões */
+.swagger-ui .btn {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* Alterar o estilo dos títulos */
+.swagger-ui .opblock-summary-method {
+    background-color: #1a73e8;
+    color: white;
+}
